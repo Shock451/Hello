@@ -1,10 +1,9 @@
 #!/usr/bin/env php
-
 <?php
-function sayHello($input){
-	echo("hello, " . $input);
+function sayHello(){
+	$input = readline("What's your name? "); echo("hello, " . $input . "\n");
 }
 
-sayHello(readline("Hi, What's your name?"));
+sayHello();
 
 ?>
