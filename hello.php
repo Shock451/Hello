@@ -1,7 +1,10 @@
-#! /usr/bin/env php
+#!/usr/bin/env php
 
+<?php
 function sayHello($input){
 	echo("hello, " . $input);
 }
 
 sayHello(readline("Hi, What's your name?"));
+
+?>
